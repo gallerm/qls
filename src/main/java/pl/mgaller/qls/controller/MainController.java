@@ -1,4 +1,4 @@
-package pl.mgaller.qls.controllers;
+package pl.mgaller.qls.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
