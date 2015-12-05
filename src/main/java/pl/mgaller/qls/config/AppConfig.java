@@ -17,10 +17,11 @@ import org.thymeleaf.templateresolver.TemplateResolver;
  *
  * @author Mariusz Galler <mariusz.galler@gmail.com>
  */
+
 @Configuration
-@ComponentScan("pl.mgaller.qls")
+@ComponentScan(basePackages = { "pl.mgaller.qls" })
 @EnableWebMvc
-public class Config extends WebMvcConfigurerAdapter {
+public class AppConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public ViewResolver viewResolver(SpringTemplateEngine templateEngine) {
