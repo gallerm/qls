@@ -6,6 +6,10 @@
  * Created: 2015-10-27
  */
 
+body {
+    background-color: #F1F2F6;
+}
+
 .navbar {
     border-radius: 0px;
 }
