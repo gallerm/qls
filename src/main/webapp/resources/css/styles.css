@@ -7,13 +7,28 @@
  */
 
 body {
-    background-color: #F1F2F6;
+    background-color: #f1f2f6;
 }
 
 .navbar {
     border-radius: 0px;
+    background-color: #434a54;
+    border-color: #434a54;
 }
 
 .footer {
     padding: 25px 0px;
+    margin-top: 20px;
+}
+
+.jumbotron .jumbotron-contents {
+    font-size: 16px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    }
+
+.form-actions {
+    text-align: center;
 }
